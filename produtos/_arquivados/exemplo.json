@@ -1,0 +1,30 @@
+{
+  "slug": "organizador-gaveta-exemplo",
+  "postar": "2026-11-15",
+  "horario": "09:00",
+  "corDestaque": "#EE4D2D",
+  "volumeMusica": 0.12,
+  "narracao": "produtos/organizador-gaveta-exemplo/narracao.mp3",
+  "voz": "<voz.id do conta.json>",
+  "musica": "musicas/ukulele.mp3",
+  "produtoNome": "Nome exato do anúncio na Shopee",
+  "itemId": "0000000000",
+  "lojaId": "000000000",
+  "lojaNome": "NomeDaLoja",
+  "termoBusca": "organizador gaveta 6 divisorias",
+  "nomeProduto": "Organizador de Gaveta 6 Divisórias",
+  "gancho": "Gaveta bagunçada nunca mais 😱",
+  "estiloCapa": "fogo",
+  "selo": "🔥 Achadinho do dia",
+  "roteiro": "[excited] Olha que jeito fácil de organizar a gaveta! [happy] Esse organizador tem seis divisórias que você ajusta do seu jeito, pra talher, maquiagem ou papelada. [warmly] Ele é de plástico resistente e não escorrega. [excited] Toca no carrinho aqui embaixo e garante o seu!",
+  "cta": "Toque no carrinho 🛒 e garanta o seu",
+  "legenda": "Gaveta organizada em minutos ✨ Organizador com 6 divisórias ajustáveis! #organizacao #casa #achadinhosshopee",
+  "capa": "produtos/organizador-gaveta-exemplo/foto1.jpg",
+  "midias": [
+    { "arquivo": "produtos/organizador-gaveta-exemplo/foto2.jpg", "texto": "6 divisórias", "duracao": 2.6 },
+    { "arquivo": "produtos/organizador-gaveta-exemplo/video.mp4", "texto": "Ajusta do seu jeito", "duracao": 2.6, "ajuste": "inteira", "inicio": 4.0 },
+    { "arquivo": "produtos/organizador-gaveta-exemplo/foto3.jpg", "texto": "Não escorrega", "duracao": 2.4 },
+    { "arquivo": "produtos/organizador-gaveta-exemplo/cor-branco.jpg", "texto": "Branco ou cinza", "duracao": 2.2, "ajuste": "inteira" }
+  ],
+  "zoomAlternado": true
+}

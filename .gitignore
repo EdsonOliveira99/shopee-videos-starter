@@ -1,0 +1,19 @@
+node_modules
+CHAVE-ELEVENLABS.txt
+*.tgz
+
+# pastas de conteúdo: ficam no repositório vazias (só o .gitkeep)
+out/*
+_BACKUPS/*
+VIDEOS-PRONTOS/*
+VIDEOS-ARQUIVO/*
+VIDEOS-INSTAGRAM/*
+legendas/*
+logs/*
+public/produtos/*
+public/instagram/*
+!*/.gitkeep
+!public/*/.gitkeep
+
+# gerado pelo 1-INSTALAR.bat
+PARA-O-CLAUDE/skills/*.zip

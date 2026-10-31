@@ -1,0 +1,25 @@
+{
+  "_leia": "Configuração desta conta. Quem preenche é o 1-INSTALAR.bat (rode de novo para mudar as respostas). O Claude lê este arquivo antes de cada leva.",
+  "instalado": false,
+  "nome": "",
+  "nicho": "",
+  "voz": {
+    "id": "",
+    "nome": ""
+  },
+  "videosPorDia": 30,
+  "janela": {
+    "inicio": "09:00",
+    "fim": "21:30"
+  },
+  "corDestaque": "#EE4D2D",
+  "hashtagFixa": "#achadinhosshopee",
+  "agendamento": {
+    "ativo": false,
+    "hora": "04:00"
+  },
+  "paginas": {
+    "oportunidades": "",
+    "postagensDoDia": ""
+  }
+}

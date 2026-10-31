@@ -1,0 +1,15 @@
+{
+  "pastaDrive": "",
+  "pastaUsados": "%USERPROFILE%\\Downloads\\_Shopee-Videos-ja-usados",
+  "tentativasNarracao": 3,
+  "limparUsados": true,
+  "_obs": "pastaDrive vazio = nao copia (use vazio tambem se VIDEOS-PRONTOS ja sincroniza direto pelo Drive para Desktop). Definido no 1-INSTALAR.bat.",
+  "instagram": {
+    "ativo": false,
+    "pasta": "VIDEOS-INSTAGRAM",
+    "palavraChave": "EU QUERO",
+    "fraseFinal": "[excited] Comenta EU QUERO aqui embaixo que eu te mando o link no direct!",
+    "ctaTela": "Comenta EU QUERO 👇 e receba o link",
+    "hashtags": "#achadinhos #achadinhosshopee #shopee"
+  }
+}

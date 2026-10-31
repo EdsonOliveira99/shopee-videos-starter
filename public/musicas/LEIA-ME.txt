@@ -1,0 +1,11 @@
+MÚSICAS DESTA CONTA
+
+Esta pasta vem vazia de propósito: cada conta do grupo tem a sua própria biblioteca,
+para os vídeos não soarem iguais aos das outras contas.
+
+Quem monta é o Claude, na primeira leva (skill videos-shopee, seção "Músicas"):
+ - só faixas de licença livre para uso comercial (ex.: Pixabay Music);
+ - nome do arquivo = estilo + número, ex.: animada-1.mp3, lofi-2.mp3, acustica-1.mp3, natal-1.mp3;
+ - cada faixa registrada no CREDITOS.txt (link, autor e licença);
+ - conferência com: node scripts/ferramentas-claude/checar-musicas.mjs
+   (recusa faixas que outra conta do grupo já usa).

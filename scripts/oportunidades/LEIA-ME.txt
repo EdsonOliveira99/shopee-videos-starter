@@ -1,0 +1,11 @@
+MÓDULO DE OPORTUNIDADES (25/10/2026)
+1. Coleta: coletar-navegador.js na aba do painel de afiliado -> rodadas/candidatos-<data>.json
+2. Pontuação: python pontuar.py rodadas/candidatos-<data>.json ../../_BACKUPS/usados.json config-pontuacao.json > rodadas/rodada-<data>.json
+   (usados.json = itemId/nome de todos os produtos/*.json e _arquivados)
+3. Publicar na página Oportunidades (link em conta.json -> paginas.oportunidades; se estiver vazio,
+   o Claude cria a página na primeira rodada e anota o link lá)
+   ArtifactData set coleção "rodadas", doc "<data>-<n>", file_path = rodada-<data>.json
+4. O dono da conta aprova/recusa na página -> coleção "decisoes" (doc = itemId, status aprovado|recusado)
+5. Leva: só produtos com decisoes.status == aprovado; revalidar preço/Xtra/estoque antes de montar o vídeo.
+Pesos, faixas, corte de comissão (R$ 5), alvo (R$ 15) e palavras proibidas: config-pontuacao.json
+Nunca inventar dado: campo ausente = null, nota 0, confiança menor, situação "pendente".

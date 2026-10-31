@@ -1,0 +1,149 @@
+{
+  "pesos": {
+    "comissao": 30,
+    "conversao": 20,
+    "estoque": 15,
+    "vendedor": 10,
+    "video": 10,
+    "recencia": 10,
+    "diferenciacao": 5
+  },
+  "faixas": {
+    "ouro": 85,
+    "prata": 70,
+    "bronze": 55
+  },
+  "eliminatorias": {
+    "comissao_minima_reais": 5.0,
+    "exige_comissao_xtra": true,
+    "estoque_minimo": 50,
+    "nota_minima": 4.7,
+    "categoria": 100636,
+    "vendas_30d_minimas": 300,
+    "preco_minimo": 30.0,
+    "preco_maximo": 150.0
+  },
+  "comissao": {
+    "zero_em": 4.0,
+    "alvo": 10.0,
+    "nota_no_alvo": 0.8,
+    "maximo_em": 20.0
+  },
+  "estoque": {
+    "zero_em": 100,
+    "cheio_em": 1000
+  },
+  "recencia_dias": [
+    [
+      30,
+      1.0
+    ],
+    [
+      60,
+      0.7
+    ],
+    [
+      90,
+      0.5
+    ],
+    [
+      180,
+      0.3
+    ]
+  ],
+  "recencia_piso_se_vende_bem": {
+    "vendas_30d_minimo": 100,
+    "nota": 0.4
+  },
+  "preco_preferido": [
+    40,
+    120
+  ],
+  "palavras_proibidas": [
+    "feng shui",
+    "fengshui",
+    "amuleto",
+    "camera",
+    "câmera",
+    "spray de pimenta",
+    "taser",
+    "inseticida",
+    "veneno",
+    "raticida",
+    "agrotóxico",
+    "pesticida",
+    "bebida",
+    "cerveja",
+    "cigarro",
+    "narguil",
+    "vape",
+    "stitch",
+    "disney",
+    "marvel",
+    "pokemon",
+    "hello kitty",
+    "barbie",
+    "arma de fogo",
+    "arma de choque",
+    "religioso",
+    "religiosa",
+    "imagem de santo",
+    "espiã",
+    "camera espia",
+    "vinhos",
+    "taça de vinho",
+    "presepio",
+    "presépio",
+    "menino jesus",
+    "sagrada familia",
+    "nascimento de jesus",
+    "anjo",
+    "grinch",
+    "frozen",
+    "mickey",
+    "minnie",
+    "coca cola",
+    "panetone",
+    "chocotone",
+    "brinquedo",
+    "fantasia",
+    "pijama",
+    "camiseta",
+    "vestido",
+    "gorro",
+    "fogos",
+    "vela faiscante",
+    "sparkler",
+    "espumante",
+    "champanhe"
+  ],
+  "vendas_minimas_para_ouro_prata": {
+    "mes": 10,
+    "total": 50
+  },
+  "busca": {
+    "minimo_aprovaveis": 20,
+    "obs": "rodada de Natal: so itens natalinos"
+  },
+  "exige_termo": [
+    "natal",
+    "natalin",
+    "natalina",
+    "natalino",
+    "papai noel",
+    "noel",
+    "rena",
+    "renas",
+    "boneco de neve",
+    "pisca",
+    "guirlanda",
+    "festao",
+    "arvore",
+    "pinheiro",
+    "cascata",
+    "christmas",
+    "xmas",
+    "floco de neve",
+    "noite feliz"
+  ]
+}

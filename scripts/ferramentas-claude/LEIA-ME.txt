@@ -1,0 +1,14 @@
+Ferramentas que o Claude usa para montar as levas de vídeos (não precisa mexer).
+- garimpo-navegador.js : consultas ao painel da Shopee e empacotamento em .zip
+- prancha.py           : monta uma prancha com fotos + frames do vídeo de cada produto (para revisar)
+- recortar.py          : recorta o produto do fundo (rembg) para a capa "estúdio"
+- gerar-lote-modelo.py : modelo de como os JSONs de cada produto são gerados (roteiro, cenas, legenda, horário)
+- previas.mjs          : gera imagens de prévia (capa e cenas) para conferir antes de entregar
+
+filtro-texto.py (24/10) - roda NA NUVEM sobre as pastas baixadas: OCR em fotos e 1 quadro/s dos vídeos.
+  DESCARTAR = plataforma, @, preço, promoção, link, chinês, logo de loja (…home, …import, …store, …mart, loja…)
+  REVISAR = marca de terceiros (Clorox, Tide…), texto pequeno na borda, inglês -> olhar com zoom
+  INFO = infográfico em português (usar "inteira") | OK = sem texto
+  Uso: pip install --break-system-packages rapidocr-onnxruntime opencv-python-headless ; python -I filtro-texto.py <pasta> [...]
+pagina-postagem.py (24/10) - gera _BACKUPS/postagem-<data>.json para a página "Postagens do Dia"
+  (link em conta.json -> paginas.postagensDoDia; vazio = o Claude cria a página e anota o link; coleção "dias", doc = data). Enviar com ArtifactData set.

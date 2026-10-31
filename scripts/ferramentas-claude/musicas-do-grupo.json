@@ -1,0 +1,85 @@
+{
+  "_leia": "Músicas que já têm dono no grupo (só a impressão digital SHA-256, sem os arquivos). O checar-musicas.mjs recusa qualquer faixa igual. Para acrescentar as de uma conta nova: node scripts/ferramentas-claude/checar-musicas.mjs --hashes",
+  "faixas": [
+    {
+      "sha256": "df063ce84646bfff6f79775bc32c8deccb5d017a3ae81665045e2991bf00e351",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "2dae7566158a405ba64aa7f3318c5115f078fe2ed69a5786e9c6c921a7063d8c",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "667cb2949a1c0329d346804d3c18a10033cc22c7857bb2db5b1990dc0a2369c0",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "fa3a9660cea765129467b1975d74951c6f3e7e0d79595f13ab28e0f3a7db4e3d",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "22f709680313d10756a49581ebf1c5e46d14ada51c905deb87a7058141e606f9",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "ebdf3b4f7cdac02fc0d78d24fb727aa4b4f9377e5939d064016b6085c1f35b55",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "740bb4d6c2f68a92270243288faaba560d8abb9a30437d72d3b65a3e73554530",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "883b9483eb69ca0eaee326350a4120145fda95f8af6fc3d7367c8f41db256bf2",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "8c3b4f211dcc3ab64f590f6103fa8803716381a2ef4d99ddd374bd62a4765281",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "49e429f64838387e82c61cd42ee53707c8bb519ec323ca8812e6856d697e8af0",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "30db1e60c8c071fc51f2b93383d9f3b21433590a3326c72c3354d0afc18f8fd8",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "8fab7685030bb7e6699f4b6297bffc16f2ecaa297411af3c31d166b7fe3f87db",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "d4fbd1db6b9eff3ab1e49851099322f6bf2f6b9936a934b030ce63a9c70f9a35",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "70db1847bbbc5099975d96d23081bae7c04bf8976a94c2c41f68c6a86beff7e5",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "2a88ac55ec2060472b4150ba30c461148f7814a0b1dd3953d92acda0a8683755",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "ab74c99827544dbb2ac64ff36b8defc86fa97336878d35d09a25a47d594f9749",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "a6248d59fb87d72cd3a6805c4c384546c55826e4302410ac856c063a435523bd",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "839ffa93038553b3083493bb46867fd7f4e99bb301feb636e3bfd051ff115920",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "42f617feca6e843c03c77ac143f616edf30bad9dd4bc3ab9bc0a44cf55cae9c0",
+      "conta": "conta original"
+    },
+    {
+      "sha256": "c37897d74498f71b4ddb0f2535dad7e8cae4ac53dc90ebdaa163a762da328425",
+      "conta": "conta original"
+    }
+  ]
+}
